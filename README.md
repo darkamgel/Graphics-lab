@@ -3,7 +3,7 @@ Computer graphics lab
 
 lab 1 :
 
-        -Reolution of your Monitor        
+        -Resolution of your Monitor        
         -Nepal FLag
 
 lab 2 :
