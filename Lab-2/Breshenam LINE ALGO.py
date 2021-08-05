@@ -2,7 +2,7 @@ import sys,pygame
 from pygame import gfxdraw
 
 pygame.init()
-screen = pygame.display.set_mode((400,400))
+screen = pygame.display.set_mode((500,600))
 screen.fill((0,0,0))
 pygame.display.flip()
 white = (255,255,255)
@@ -41,7 +41,7 @@ def bresenham(x1,y1,x2,y2):
                 D = D - 2 * (y2 - y1)
     pygame.display.flip()
 
-bresenham(10,10,50,50)
+bresenham(100,200,400,300)
 
 while 1:
     for event in pygame.event.get():
