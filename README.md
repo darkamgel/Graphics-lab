@@ -1,4 +1,6 @@
-Computer graphics lab
+Computer graphics lab 
+
+installation: pip install pygame
 
 
 lab 1 :
