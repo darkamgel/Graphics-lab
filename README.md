@@ -19,3 +19,11 @@ lab 3 :
 
         - mid-point Circle Drawing Algorithm
         - mid-point Ellipse Drawing Algorithm
+
+lab 4 :
+
+        - 2d Reflection
+        - 2d Rotation
+        - 2d Shearing
+        - 2d Translation
+        - 2d Scaling
