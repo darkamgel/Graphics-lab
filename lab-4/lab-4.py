@@ -1,7 +1,4 @@
 
-
-
-
 import pygame,math
 import numpy as np
 pygame.init()
@@ -25,18 +22,8 @@ while state:
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
             state=False
-            
-            
-            
-    
-            
+              
     wn.fill(Black)
-    
-    
-    
-  
-  
-    
     
     def scaling():
         pygame.display.set_caption('Scaling cyan = original triangle and Blue = Scaled triangle')
@@ -61,10 +48,7 @@ while state:
         
         pygame.draw.polygon(wn,Blue,[[s_x1,s_y1],[s_x2,s_y2],[s_x3,s_y3]])
         
-        
-        
-        
-        
+              
     def translate():
         pygame.display.set_caption('Translation cyan = original triangle and Blue = Translated triangle')
         tx,ty = (30,100)
@@ -75,8 +59,6 @@ while state:
         h_coordinate = [[x1,x2,x3],[y1,y2,y3],[1,1,1]]
         
         pygame.draw.polygon(wn,cyan,[[x1,y1],[x2,y2],[x3,y3]])
-        
-        
         
         ans = np.dot(t_matrix, h_coordinate)
         #Translated Triangle coordinates
