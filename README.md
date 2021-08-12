@@ -27,3 +27,10 @@ lab 4 :
         - 2d Shearing
         - 2d Translation
         - 2d Scaling
+
+lab 5 :
+
+        - CohenSutherland Line clipping Algorithm
+        - Liang Barsky Line clipping Algorithm
+        
+
