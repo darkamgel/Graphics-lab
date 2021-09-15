@@ -38,10 +38,7 @@ def draw_skeleton():
 def draw_inner_part():
     AC = pygame.gfxdraw.filled_polygon(screen, [A, B, C, D, E, F], RED)
 
-def base_length(radius, angle):
-    """base line of triangle present around sun and moon."""
-    return math.sqrt(2 * math.pow(radius, 2) -
-                     2 * math.pow(radius, 2) * math.cos(angle))
+
 
 def rotation(point1, point2, angle):
     """Rotate the point1 around point2 with given angle."""
@@ -65,9 +62,6 @@ def draw_triangles_round(n, height, startpoint, base_length, angle):
         startpoint = rotated_end_point
 
 
-def distance(A: tuple, B: tuple):
-    """distance between two points."""
-    return math.sqrt((B[0]-A[0])**2 + (B[1]-A[1])**2)
 
 
 screen = prepare_screen()
